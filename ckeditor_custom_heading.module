@@ -1,0 +1,8 @@
+<?php
+use Drupal\ckeditor_custom_heading\Plugin\CKEditor5Plugin\Heading;
+
+function ckeditor_custom_heading_ckeditor5_plugin_info_alter(&$plugins) {
+    $def=$plugins['ckeditor5_heading']??null;
+    if (!$def) return;
+    $def->setClass(Heading::class);
+}

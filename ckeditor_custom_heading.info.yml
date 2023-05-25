@@ -1,0 +1,5 @@
+name: CKEditor Custom Heading
+type: module
+description: CKEditor Custom Heading
+core_version_requirement: ^8.8 || ^9
+project: 'ckeditor_custom_heading'
